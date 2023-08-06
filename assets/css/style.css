@@ -7,6 +7,21 @@
 }
 
 body {
-    font-family: Playfair Display, sans-serif;
+    font-family: Source Serif 4, sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Playfair Display, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
