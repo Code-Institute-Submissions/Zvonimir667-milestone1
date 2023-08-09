@@ -79,15 +79,30 @@ h2 {
     overflow: hidden;
 }
 
-#about-us {
-    margin-left: 30px;
-    margin-top: 30px;
+.about-us {
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: rgba(200, 80, 80, .4);
+    border-radius: 2px;
 }
 
-#about-us>h2 {
+hr {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.about-us>h2 {
     color: red;
 }
 
-#about-us>p {
+.about-us>p {
     text-align: left;
+    font-family: mulish, sans-serif;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
 }
