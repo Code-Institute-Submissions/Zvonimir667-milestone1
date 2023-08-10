@@ -121,3 +121,23 @@ footer {
     padding: 5%;
     color: black;
 }
+
+/* legends */
+
+#player {
+    height: 600px;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 75%;
+    float: right;
+    background-color: green;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 25%;
+    float: left;
+    background-color: blue;
+}
