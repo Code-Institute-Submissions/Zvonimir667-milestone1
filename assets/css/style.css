@@ -9,7 +9,7 @@
 body {
     font-family: Source Serif 4, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: black;
 }
 
 /* headings and logo */
@@ -56,11 +56,11 @@ h2 {
 #menu a:hover {
     color: red;
     background-color: black;
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid black;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid black;
 }
 
 /* hero image */
@@ -84,7 +84,7 @@ h2 {
     padding: 30px;
     border: 1px solid black;
     background-color: rgba(200, 80, 80, .4);
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 hr {
@@ -105,4 +105,19 @@ hr {
 
 footer {
     height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
 }
