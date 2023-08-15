@@ -101,6 +101,11 @@ hr {
     font-family: mulish, sans-serif;
 }
 
+.about-us>ul {
+    font-family: mulish, serif;
+    font-size: 80%;
+}
+
 /* footer */
 
 footer {
