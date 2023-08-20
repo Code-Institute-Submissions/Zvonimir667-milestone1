@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Source Serif 4, sans-serif;
+    font-family: "Source Serif 4", sans-serif;
     font-weight: 300;
     color: black;
 }
@@ -16,7 +16,7 @@ body {
 
 h1,
 h2 {
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -54,8 +54,6 @@ h2 {
 }
 
 #menu a:hover {
-    color: red;
-    background-color: black;
     border-bottom: 1px solid black;
 }
 
@@ -231,7 +229,7 @@ footer {
 }
 
 .name {
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     text-transform: none;
     letter-spacing: 2px;
     font-size: 150%;
@@ -239,7 +237,7 @@ footer {
 
 .country,
 .stats {
-    font-family: Source Serif 4, sans-serif;
+    font-family: "Source Serif 4", sans-serif;
     text-decoration: underline;
 }
 
@@ -262,7 +260,7 @@ footer {
     background-color: rgba(200, 80, 80, 0.6);
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 20px;
     padding: 30px;
     border-radius: 10px;
 }
@@ -301,3 +299,35 @@ footer {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
+/* Media querries */
+
+@media screen and (max-width: 1200px) {
+    .player {
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    .right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .left-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
