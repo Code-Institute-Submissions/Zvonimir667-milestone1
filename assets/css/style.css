@@ -331,3 +331,25 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    .right-about h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-about h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-about h4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-about p {
+        width: 100%;
+        text-align: center;
+    }
+
+}

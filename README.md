@@ -1,39 +1,69 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# MANCHESTER UNITED FAN PAGE
 
-Welcome,
+Manchester United Fan Page is site that can bring you closer to your favorite club.This site will be useful for people who want more knowlege about the club and want to be up to date about all news related to them.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+- Navigation Bar
 
-## Codeanywhere Reminders
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  
+  - Navigation bar is featured on all three pages, it is identidal on each page.
+  - Includes links to Home page, Legends and Sign Up page.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![Screenshot of navigation bar.](/assets/images/Navigation-bar.png)
 
-`python3 -m http.server`
+- Landing page crest
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - The first image is  crest of Manchester United so user know that is on the right place
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Picture of ManUtd Crest.](/assets/images/crest-small.png)
 
-`http_server`
+- Eric Cantona quote
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - > When I think football, I think Manchester United. I still support United and always will. I will die with them in my heart.
+  - We begin with a quote from Eric Cantona,  a true legend of ManUtd known for his passion and love for the club.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- History
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - Brief history of ManUtd to familiar user with ther begginings and achievements over thier logn and succesfull history.
 
-To log into the Heroku toolbelt CLI:
+- Old trafford stadium picture
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - A picture of Stadium of ManUtd, Old Tafford know also as "Theatre of Dreams"
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Footer
 
----
+  - The footer section includes links to the relevant social media sites for ManUtd Fan Page. The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+![Screenshot of footer](/assets/images/footer.png)
 
-Happy coding!
+- Manchester United legends
+
+  - This section makes the user more familiar with some of the biggest names who played in Manchester united so can create a bond for a user with a club.
+
+- The Sign Up Page
+
+  - This page allow user to sign up for newsletter so he can can up with all the news and transfers involving the club. Aslo he can choose to get newsletter on daily, weekly or monthly basis.
+
+## Testing
+
+### Validator testing
+
+- HTML
+  - No errors were returned when passing through the official W3C validator
+- CSS
+  - No errors were found when passing through the official (Jigsaw) validator
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Pages
+  - Once the pages has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  
+The live link can be found here - <https://zvonimir667.github.io/love-running/>
+
+## Testing
+
+- 
