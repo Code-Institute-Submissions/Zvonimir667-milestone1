@@ -55,6 +55,16 @@ Manchester United Fan Page is site that can bring you closer to your favorite cl
 - CSS
   - No errors were found when passing through the official (Jigsaw) validator
 
+### PageSpeed testing
+
+- Desktop testing
+  
+![Screenshot of PageSpeed desktop testing](/assets/images/desktop-testing.png)
+
+- Mobile testing 
+  
+![Screenshot of PageSpeed mobile testing](/assets/images/mobile-testing.png)
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -64,6 +74,7 @@ Manchester United Fan Page is site that can bring you closer to your favorite cl
   
 The live link can be found here - <https://zvonimir667.github.io/love-running/>
 
-## Testing
+## Credits
 
-- 
+- Content
+  - The text 
