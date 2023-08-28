@@ -79,6 +79,19 @@ h2 {
     margin: 30px;
 }
 
+.grid-child2 {
+    height: 600px;
+    width: 100%;
+    margin: 30px;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+}
+
+#crest {
+    width:100%;
+    margin: 0 auto;
+}
+
 .about-us {
     margin: 30px;
     padding: 30px;
@@ -304,6 +317,28 @@ footer {
 /* Media querries */
 
 @media screen and (max-width: 1200px) {
+    .grid-container {
+        display: block;
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .grid-child1 {
+        clear: both;
+        width: 100%;
+        height: 600px;
+        float: left;
+        padding: 0;
+    }
+
+    .grid-child2 {
+        width: 100%;
+        height: 600px;
+        float: left;
+        padding: 0;
+    }
+
     .player {
         width: 90%;
         height: 500px;
@@ -329,12 +364,17 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
+    #logo {
+        font-size: 200%;
+    }
+
     #menu {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-bottom: 20px;
         line-height: 25px;
+        letter-spacing: 2px;
     }
 
     .player {
