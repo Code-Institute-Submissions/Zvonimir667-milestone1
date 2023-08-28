@@ -333,10 +333,14 @@ footer {
     }
 
     .grid-child2 {
-        width: 100%;
+        width: 90%;
         height: 600px;
         float: left;
         padding: 0;
+    }
+
+    #welcome {
+        font-size: 200%;
     }
 
     .player {

@@ -64,20 +64,49 @@ Manchester United Fan Page is site that can bring you closer to your favorite cl
   
 ![Screenshot of PageSpeed desktop testing](/assets/images/desktop-testing.png)
 
-- Mobile testing 
-  
+- Mobile testing
+
 ![Screenshot of PageSpeed mobile testing](/assets/images/mobile-testing.png)
+
+- Performance issues with mobile were due to loading fonts and fontawesome from style.css
+
+![Screenshot 1 from PageSpeed performance](/assets/images/testing1.png)
+
+- Performance issues with loading hero image were reduced mildly by chnging format from .jpg to .avif
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Pages
-  - Once the pages has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-  
-The live link can be found here - <https://zvonimir667.github.io/love-running/>
+  - In Build and deployment select source Deploy from a branch
+  - Choose branch main and save
+  - On top the Pages you will find the link to indicate the successful deployment
+
+The live link can be found here - <https://zvonimir667.github.io/milestone1/>
 
 ## Credits
 
-- Content
-  - The text 
+### Code Used
+
+- Code was written by Zvonimir Koska
+- Fonts for this project were chosen from [Fontjoy site](https://fontjoy.com/)
+
+### Content
+
+- Content was written by Zvonimir Koska, with some information provided through wikipedia page and Manchester United official website
+- Quote from Eric Cantona on index.html page is from [AZ quotes](https://www.azquotes.com/quotes/topics/manchester-united.html)
+
+### Media
+
+- Stadium image - [ManUtd Fansite](https://thebusbybabe.sbnation.com/)
+- Crest image - [Logos world site](<https://logos-world.net>)
+- Players images in Legends section - [Official ManUtd page](<https://www.manutd.com/>)
+- Background image in Sign Up page - [Logos site](<https://logos-download.com/>)
+
+### Acknowledgments
+
+I would like to acknowledge the following people who helped me along the way in completing this project:
+
+- Code Institute for giving me knowledge and tools to create this project
+- My Code Institute mentor Jubril Akolade
