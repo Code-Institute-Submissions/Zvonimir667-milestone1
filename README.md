@@ -1,5 +1,7 @@
 # MANCHESTER UNITED FAN PAGE
 
+![Picture of Man.Utd. crest](/assets/images/crest-small.png)
+
 Manchester United Fan Page is site that can bring you closer to your favorite club.This site will be useful for people who want more knowlege about the club and want to be up to date about all news related to them.
 
 ## Features
@@ -13,11 +15,11 @@ Manchester United Fan Page is site that can bring you closer to your favorite cl
 
 ![Screenshot of navigation bar.](/assets/images/Navigation-bar.png)
 
-- Landing page crest
+- Hero image
+  - Image of full Manchester United stadium "Old Trafford" on the right side and crest and some info about stadium on the left side
+  - On tablet and mobile screens images are one below other.
 
-  - The first image is  crest of Manchester United so user know that is on the right place
-
-![Picture of ManUtd Crest.](/assets/images/crest-small.png)
+![Screenshot of hero image](/assets/images/screenshot-hero.png)
 
 - Eric Cantona quote
 
@@ -28,23 +30,24 @@ Manchester United Fan Page is site that can bring you closer to your favorite cl
 
   - Brief history of ManUtd to familiar user with ther begginings and achievements over thier logn and succesfull history.
 
-- Old trafford stadium picture
-
-  - A picture of Stadium of ManUtd, Old Tafford know also as "Theatre of Dreams"
-
 - Footer
 
   - The footer section includes links to the relevant social media sites for ManUtd Fan Page. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media.
+
 ![Screenshot of footer](/assets/images/footer.png)
 
 - Manchester United legends
 
   - This section makes the user more familiar with some of the biggest names who played in Manchester united so can create a bond for a user with a club.
 
+![Screenshot of legends section](/assets/images/screenshot-legends.png)
+
 - The Sign Up Page
 
   - This page allow user to sign up for newsletter so he can can up with all the news and transfers involving the club. Aslo he can choose to get newsletter on daily, weekly or monthly basis.
+
+!{Screenshot of Sign Up Page}(/assets/images/screenshot-signup.png)
 
 ## Testing
 
