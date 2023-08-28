@@ -34,7 +34,7 @@ h2 {
     font-family: Mulish, sans-serif;
     font-size: 110%;
     letter-spacing: 4px;
-    color: red;
+    color: black;
 }
 
 #menu,
@@ -50,15 +50,15 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: black;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid red;
 }
 
 .active {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid red;
 }
 
 /* hero image */
@@ -91,7 +91,7 @@ hr {
 }
 
 .about-us>h2 {
-    color: red;
+    color: black; 
 }
 
 .about-us>p {
@@ -319,6 +319,10 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
+    }
+
+    .signup-form {
+        background-color: rgba(200, 80, 80, 1);
     }
 }
 
