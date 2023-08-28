@@ -67,15 +67,15 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    height: 600px; 
+    height: 600px;
     width: 100%;
-    overflow: hidden;  
+    overflow: hidden;
 }
 
 .grid-child1 {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center; 
+    background: url('../images/hero-image.avif') no-repeat center center;
     margin: 30px;
 }
 
@@ -88,7 +88,7 @@ h2 {
 }
 
 #crest {
-    width:100%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -106,7 +106,7 @@ hr {
 }
 
 .about-us>h2 {
-    color: black; 
+    color: black;
 }
 
 .about-us>p {
